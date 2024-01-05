@@ -1,8 +1,10 @@
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
+import Topbar from "./topBar/Topbar";
 
 function App() {
   return (
     <div>
+      <Topbar />
       <Home />
     </div>
   );
